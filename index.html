@@ -12,8 +12,8 @@
     <header class="header">
         <div class="nav-container">
             <!-- Logo on Left -->
-            <div class="logo">
-                <span>TechWave</span>
+            <div class="logo" aria-label="TechWave logo">
+                <span class="logo-tech">Tech</span><span class="logo-wave">Wave</span>
             </div>
 
             <!-- Menu Items in Center (Desktop) -->
@@ -79,6 +79,7 @@
     </section>
     
       <!-- About Section -->
+    <!-- About Section -->
     <section id="about" class="about-section">
         <div class="container text-center">
             <h2>About The Podcast</h2>
@@ -90,19 +91,19 @@
             <!-- 4 Statistics Items (Row on Desktop, 2x2 Grid on Mobile) -->
             <div class="stats-grid">
                 <div class="stat-card">
-                    <h3 class="gradient-text">150K+</h3>
+                    <h3 class="stat-value">150K+</h3>
                     <p>Monthly Listeners</p>
                 </div>
                 <div class="stat-card">
-                    <h3 class="gradient-text">200+</h3>
+                    <h3 class="stat-value">200+</h3>
                     <p>Episodes Published</p>
                 </div>
                 <div class="stat-card">
-                    <h3 class="gradient-text">4.9 ★</h3>
+                    <h3 class="stat-value">4.9 ★</h3>
                     <p>Average Rating</p>
                 </div>
                 <div class="stat-card">
-                    <h3 class="gradient-text">50+</h3>
+                    <h3 class="stat-value">50+</h3>
                     <p>Expert Guests</p>
                 </div>
             </div>
@@ -110,45 +111,45 @@
     </section>
 
     <!-- Why Choose Section -->
-    <section class="why-section">
-        <div class="container">
-            <h2 class="text-center mb-large">Why Choose TechWave</h2>
-            
-            <!-- 5 Feature Cards Layout -->
-            <div class="features-grid">
-                <!-- Card 1 -->
-                <div class="feature-card">
-                    <div class="feature-icon"><img src="assets/headphone.png" alt="Audio"></div>
-                    <h3>Premium Audio Quality</h3>
-                    <p>Experience crystal clear sound with professional-grade recording equipment and expert audio engineering, ensuring a comfortable listening experience at all times.</p>
-                </div>
-                <!-- Card 2 -->
-                <div class="feature-card">
-                    <div class="feature-icon"><img src="assets/device.png" alt="Mobile"></div>
-                    <h3>Mobile Friendly</h3>
-                    <p>Listen on the go seamlessly across all mobile devices, tablets, and desktop platforms without missing a beat.</p>
-                </div>
-                <!-- Card 3 -->
-                <div class="feature-card">
-                    <div class="feature-icon"><img src="assets/location.png" alt="Global"></div>
-                    <h3>Global Community</h3>
-                    <p>Connect with a worldwide network of tech enthusiasts, developers, and industry creators.</p>
-                </div>
-                <!-- Card 4 -->
-                <div class="feature-card">
-                    <div class="feature-icon"><img src="assets/message.png" alt="Interviews"></div>
-                    <h3>Exclusive Interviews</h3>
-                    <p>Gain unprecedented access to founders, c-suite executives, and top innovators as they share their personal stories, challenges, and success strategies.</p>
-                </div>
-                <!-- Card 5 -->
-                <div class="feature-card span-card">
-                    <div class="feature-icon"><img src="assets/resource.png" alt="Resources"></div>
-                    <h3>Rich Resources</h3>
-                    <p>Access show notes, transcripts, and supplementary learning guides for every single episode.</p>
-                </div>
+   <section class="why-section">
+    <div class="container">
+        <h2 class="text-center mb-large">Why Choose TechWave</h2>
+        
+        <div class="features-grid">
+            <!-- Large Card on Left -->
+            <div class="feature-card feature-large">
+                <div class="feature-icon"><img src="assets/headphone.png" alt="Audio"></div>
+                <h3>Premium Audio Quality</h3>
+                <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            </div>
+
+            <!-- Four smaller cards on Right -->
+            <div class="feature-card">
+                <div class="feature-icon"><img src="assets/device.png" alt="Mobile"></div>
+                <h3>Mobile Friendly</h3>
+                <p>Listen on the go with seamless mobile experience and offline downloads.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon"><img src="assets/location.png" alt="Global"></div>
+                <h3>Global Community</h3>
+                <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon"><img src="assets/message.png" alt="Interviews"></div>
+                <h3>Exclusive Interviews</h3>
+                <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon"><img src="assets/resource.png" alt="Resources"></div>
+                <h3>Rich Resources</h3>
+                <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Featured Episodes Section -->
     <section id="episodes" class="episodes-section">
@@ -245,7 +246,9 @@
     <!-- Footer Section -->
     <footer class="footer-section" style="background-image: url('assets/footer-bg.png');">
         <div class="container text-center relative">
-            <span class="footer-logo gradient-text">TechWave</span>
+            <div class="footer-logo" aria-label="TechWave footer logo">
+                <span class="logo-tech">Tech</span><span class="logo-wave">Wave</span>
+            </div>
             
             <div class="footer-platforms">
                 <a href="#"><img src="assets/spotify.png" alt="Spotify" class="icon-sm"> Spotify</a>
